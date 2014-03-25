@@ -7,12 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "SeaCat.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Configure SeaCat client
+    [SeaCatClient configure];
+
     return YES;
 }
 							
