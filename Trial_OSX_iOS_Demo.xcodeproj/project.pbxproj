@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA2A35031992B4A000712A78 /* SeaCatClientTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2A35021992B4A000712A78 /* SeaCatClientTrial.framework */; };
+		FA1C396719A13D9900C32D6D /* SeaCatClientTrial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1C396619A13D9900C32D6D /* SeaCatClientTrial.framework */; };
 		FAB84DD618E1A914004A4F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB84DD518E1A914004A4F15 /* Foundation.framework */; };
 		FAB84DD818E1A914004A4F15 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB84DD718E1A914004A4F15 /* CoreGraphics.framework */; };
 		FAB84DDA18E1A914004A4F15 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB84DD918E1A914004A4F15 /* UIKit.framework */; };
@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA2A35021992B4A000712A78 /* SeaCatClientTrial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SeaCatClientTrial.framework; sourceTree = "<group>"; };
+		FA1C396619A13D9900C32D6D /* SeaCatClientTrial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SeaCatClientTrial.framework; sourceTree = "<group>"; };
 		FAB84DD218E1A914004A4F15 /* Trial_OSX_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trial_OSX_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB84DD518E1A914004A4F15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FAB84DD718E1A914004A4F15 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,10 +45,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2A35031992B4A000712A78 /* SeaCatClientTrial.framework in Frameworks */,
 				FAB84DD818E1A914004A4F15 /* CoreGraphics.framework in Frameworks */,
 				FAB84DDA18E1A914004A4F15 /* UIKit.framework in Frameworks */,
 				FAB84DD618E1A914004A4F15 /* Foundation.framework in Frameworks */,
+				FA1C396719A13D9900C32D6D /* SeaCatClientTrial.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		FAB84DD418E1A914004A4F15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA2A35021992B4A000712A78 /* SeaCatClientTrial.framework */,
+				FA1C396619A13D9900C32D6D /* SeaCatClientTrial.framework */,
 				FAB84DD518E1A914004A4F15 /* Foundation.framework */,
 				FAB84DD718E1A914004A4F15 /* CoreGraphics.framework */,
 				FAB84DD918E1A914004A4F15 /* UIKit.framework */,
@@ -288,6 +288,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/alex/Downloads/SeaCat_Trial_OSX_iOS,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trial_OSX_iOS_Demo/Trial_OSX_iOS_Demo-Prefix.pch";
@@ -304,6 +305,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					/Users/alex/Downloads/SeaCat_Trial_OSX_iOS,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trial_OSX_iOS_Demo/Trial_OSX_iOS_Demo-Prefix.pch";
