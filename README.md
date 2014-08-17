@@ -17,5 +17,3 @@ Enabling SeaCat
 
 In order to use this demo, you need to install SeaCat Server and Client. You can use also trial version.
 Please follow instructions at http://www.seacat.mobi/blog/trial_for_ios_mac_osx  
-There is also video tutorial avaiable: http://youtu.be/WgDe598p7Ko
-
